@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
-import { BiCheck, BiInfoCircle, BiMinus, BiPlus } from "react-icons/bi";
+import { BiCheck, BiMinus, BiPlus } from "react-icons/bi";
 
 interface ChallengeCardProps {
   selectedPlan: string;

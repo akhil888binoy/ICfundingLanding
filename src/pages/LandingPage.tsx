@@ -1,18 +1,13 @@
-import { useNavigate } from 'react-router-dom';
 import BulletSection from '../components/sections/BulletSection.tsx';
 import ChallengesAndPricing from '../components/sections/ChallengesAndPricing.tsx';
-import FAQ from '../components/sections/Faq.tsx';
 import Howitworks from '../components/sections/Howitworks.tsx';
 import Rules from '../components/sections/Rules.tsx';
-import RulesRegulations from '../components/sections/RulesRegulations.tsx';
 import GradientBlinds from '../styles/background/GradientBlinds.tsx';
-import CountUp from '../styles/CountUp.tsx';
-  import { motion } from "framer-motion";
 import HeroCTA from '../components/HeroCTA.tsx';
+import FAQ from '../components/sections/FAQ.tsx';
 
 
 const LandingPage = () => {
- const navigate = useNavigate();
 
   return (
     <>

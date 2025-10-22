@@ -1,7 +1,4 @@
-import { motion } from "framer-motion";
 import GradientBlinds from "../../styles/background/GradientBlinds";
-import ChallengeCard from "./ChallengeCard";
-import { useState } from "react";
 import RulesRegulations from "./RulesRegulations";
 
 
