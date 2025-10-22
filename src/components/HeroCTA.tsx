@@ -15,7 +15,7 @@ export default function HeroCTA() {
   return (
     <>
    <motion.div
-  className="absolute inset-0 flex flex-col items-center justify-center h-screen z-10 bottom-10  lg:px-10 text-center bg-black/40 pointer-events-none"
+  className="absolute inset-0 flex flex-col items-center justify-center h-screen z-10 bottom-10  lg:px-10 text-center bg-black/40 lg:pointer-events-none"
   initial="hidden"
   animate="visible"
   transition={{ staggerChildren: 0.3 }}
@@ -52,7 +52,7 @@ export default function HeroCTA() {
 
     <form
   onSubmit={handleSubmit}
-  className="absolute inset-x-0 lg:bottom-75 bottom-33 mt-6 sm:mt-8 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 w-full px-4 sm:px-6 max-w-md sm:max-w-xl mx-auto text-center z-10"
+  className="absolute inset-x-0 lg:bottom-75 bottom-25 mt-6 sm:mt-8 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 w-full px-4 sm:px-6 max-w-md sm:max-w-xl mx-auto text-center z-10"
 >
   <input
     type="email"
